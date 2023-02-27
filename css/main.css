@@ -32,17 +32,25 @@
         margin-right: 10px;
         color: #000000;
     }
-    nav .nav-right-section .menu-icon {
-        background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    nav .nav-right-section .menu-icon img {
+        /* background-image: url("https://static.thenounproject.com/png/756729-200.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
-        width: 25px;
-        height: 25px;
+        background-size: contain; */
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
     }
     nav .nav-right-section img {
         border-radius: 50px;
-        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    nav .nav-right-section #user {
+        margin-right: 0;
+    }
+    nav .nav-right-section #menu {
+        opacity: .6;
     }
 
 /* Estilos en main */
@@ -74,7 +82,7 @@
         align-items: center;
     }
     main .main-input input {
-        width: 450px;
+        width: 440px;
         height: 40px;
         border: none;
         outline: none;
@@ -91,6 +99,7 @@
         width: 18px;
         height: 18px;
         opacity: .45;
+        margin-right: 10px;
     }
     main .main-input .micro-icon {
         cursor: pointer;
@@ -117,6 +126,11 @@
         border-radius: 5px;
         padding: 0 15px;
         margin-right: 15px;
+    }
+    main .main-buttons button a {
+        color: #5f6368;
+        text-decoration: none;
+        
     }
     main .main-buttons button:hover {
         cursor: pointer;
